@@ -1,0 +1,28 @@
+{
+  "name": "vault-sync",
+  "version": "1.0.0",
+  "description": "Optional manual GitHub backup for desktop vaults using Obsidian Sync.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "compile": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "esbuild tests/git-backup.test.ts --bundle --platform=node --outfile=dist/test.js && node dist/test.js",
+    "build": "npm run compile && mkdir -p /home/mehmedbaykan/Homepage/VAULT/.obsidian/plugins/vault-sync && cp -u main.js manifest.json styles.css /home/mehmedbaykan/Homepage/VAULT/.obsidian/plugins/vault-sync/"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "sync",
+    "git"
+  ],
+  "author": "mehmedbaykan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.24.0",
+    "obsidian": "latest",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.0"
+  }
+}

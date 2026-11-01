@@ -1,0 +1,10 @@
+{
+	"id": "vault-sync",
+	"name": "Vault Sync",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Optional manual GitHub backup for desktop vaults using Obsidian Sync.",
+	"author": "mehmedbaykan",
+	"authorUrl": "https://github.com/mehmedcelenk",
+	"isDesktopOnly": true
+}

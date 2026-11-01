@@ -1,0 +1,10 @@
+{
+  "id": "clevermenu",
+  "name": "CleverMenu",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Right-click editor enhancements: instant cycle highlighting (green -> yellow -> underline) and active note ^block ID linker.",
+  "author": "mehmedbaykan",
+  "isDesktopOnly": false
+}
+

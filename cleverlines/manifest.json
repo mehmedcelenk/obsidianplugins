@@ -1,0 +1,9 @@
+{
+  "id": "cleverlines",
+  "name": "CleverLines",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Smart task lines, interactive tags (#, #?, timers), block priority sorting, and task board dashboard.",
+  "author": "mehmedbaykan",
+  "isDesktopOnly": false
+}

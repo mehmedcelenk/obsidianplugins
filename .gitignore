@@ -1,0 +1,20 @@
+# Dependencies and generated build output
+node_modules/
+dist/
+main.js
+main.js.map
+*.tsbuildinfo
+*.log
+
+# Local credentials and Obsidian plugin settings
+.env
+.env.*
+!.env.example
+.npmrc
+data.json
+*.pem
+*.key
+
+# OS metadata
+.DS_Store
+Thumbs.db

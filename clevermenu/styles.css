@@ -1,0 +1,43 @@
+/* --------------------------------------------------------------------------
+   CleverMenu Plugin Styles
+   -------------------------------------------------------------------------- */
+
+mark.mytasks-hl-green,
+span.mytasks-hl-green,
+.cm-line mark.mytasks-hl-green {
+	background-color: rgba(34, 197, 94, 0.32) !important;
+	color: inherit !important;
+	border-radius: 3px !important;
+	padding: 1px 3px !important;
+}
+
+.theme-dark mark.mytasks-hl-green,
+.theme-dark span.mytasks-hl-green,
+.theme-dark .cm-line mark.mytasks-hl-green {
+	background-color: rgba(34, 197, 94, 0.4) !important;
+}
+
+mark.mytasks-hl-yellow,
+span.mytasks-hl-yellow,
+.cm-line mark.mytasks-hl-yellow {
+	background-color: rgba(234, 179, 8, 0.35) !important;
+	color: inherit !important;
+	border-radius: 3px !important;
+	padding: 1px 3px !important;
+}
+
+.theme-dark mark.mytasks-hl-yellow,
+.theme-dark span.mytasks-hl-yellow,
+.theme-dark .cm-line mark.mytasks-hl-yellow {
+	background-color: rgba(234, 179, 8, 0.42) !important;
+}
+
+u.mytasks-hl-underline,
+span.mytasks-hl-underline,
+.cm-line u.mytasks-hl-underline {
+	text-decoration: underline !important;
+	text-decoration-color: var(--text-accent, #38bdf8) !important;
+	text-decoration-thickness: 2px !important;
+	text-underline-offset: 3px !important;
+}
+

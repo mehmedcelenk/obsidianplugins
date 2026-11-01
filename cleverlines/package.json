@@ -1,0 +1,27 @@
+{
+  "name": "cleverlines",
+  "version": "1.0.0",
+  "description": "Smart task lines, interactive tags (#, #?, timers), block priority sorting, and task board dashboard.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "compile": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "esbuild tests/lock-and-features.test.ts --bundle --platform=node --outfile=dist/test.js --external:obsidian && node dist/test.js",
+    "build": "npm run compile && mkdir -p /home/mehmedbaykan/Homepage/VAULT/.obsidian/plugins/cleverlines && cp -u main.js manifest.json styles.css /home/mehmedbaykan/Homepage/VAULT/.obsidian/plugins/cleverlines/"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "tasks"
+  ],
+  "author": "mehmedbaykan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.24.0",
+    "obsidian": "latest",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.0"
+  }
+}

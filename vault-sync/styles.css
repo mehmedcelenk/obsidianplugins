@@ -1,0 +1,15 @@
+.vault-sync-status {
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	color: var(--text-muted);
+}
+
+.vault-sync-status:hover {
+	color: var(--text-normal);
+}
+
+.vault-sync-status svg {
+	width: 15px;
+	height: 15px;
+}
